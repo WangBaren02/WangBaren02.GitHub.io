@@ -285,25 +285,13 @@
 
                 </div>
             </section>
+
+            <footer style="text-align:center; margin-top:60px;">
+                <p>Thank you for visiting my homepage.</p>
+            <div style="text-align:center; font-style:italic; margin-bottom:80px;"> Last update: Oct 24, 2025</div>
+            </footer>
+
         </main>
     </div>
 </body>
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    const audio = document.querySelector('audio');
-    const avatar = document.querySelector('.avatar');
-
-    if (audio && avatar) {
-        audio.addEventListener('play', () => {
-            avatar.classList.add('beat');
-        });
-        audio.addEventListener('pause', () => {
-            avatar.classList.remove('beat');
-        });
-        audio.addEventListener('ended', () => {
-            avatar.classList.remove('beat');
-        });
-    }
-});
-</script>
 </html>```
