@@ -23,7 +23,7 @@
         <aside class="sidebar" aria-label="Profile and site navigation">
             <div class="profile">
                 <div class="avatar-wrap">
-                    <img class="avatar" src="figure/Hannah.jpg" alt="Hannah Zhang's purple-toned profile image">
+                    <img class="avatar" src="figure/Hannah.jpg" decoding="async" fetchpriority="high" alt="Hannah Zhang's purple-toned profile image">
                 </div>
                 <h2 class="profile-name">Hannah</h2>
                 <p class="profile-name-cn" lang="zh-CN">张瀚文</p>
@@ -140,7 +140,7 @@
                 <div class="featured-grid">
                     <article class="card featured-card">
                         <div class="featured-media">
-                            <img class="featured-image" src="figure/c6.png" alt="FPGA vision-guided robotic arm project">
+                            <img class="featured-image" src="figure/c6.png" loading="lazy" decoding="async" alt="FPGA vision-guided robotic arm project">
                         </div>
                         <div class="featured-body">
                             <div class="featured-meta"><span class="tag">FPGA</span><span class="tag">Vision</span></div>
@@ -150,7 +150,11 @@
                     </article>
                     <article class="card featured-card">
                         <div class="featured-media">
-                            <img class="featured-image" src="figure/c3.png" alt="FPGA precision robotic arm control project">
+                            <img class="featured-image" src="figure/c3-886.webp"
+                                 srcset="figure/c3-720.webp 720w, figure/c3-886.webp 886w"
+                                 sizes="(max-width: 760px) 100vw, 33vw"
+                                 loading="lazy" decoding="async"
+                                 alt="FPGA precision robotic arm control project">
                         </div>
                         <div class="featured-body">
                             <div class="featured-meta"><span class="tag">FPGA</span><span class="tag">Control</span></div>
@@ -160,7 +164,11 @@
                     </article>
                     <article class="card featured-card">
                         <div class="featured-media">
-                            <img class="featured-image" src="figure/c2.png" alt="Wireless transmission signal simulation project">
+                            <img class="featured-image" src="figure/c2-1200.webp"
+                                 srcset="figure/c2-720.webp 720w, figure/c2-1200.webp 1200w"
+                                 sizes="(max-width: 760px) 100vw, 33vw"
+                                 loading="lazy" decoding="async"
+                                 alt="Wireless transmission signal simulation project">
                         </div>
                         <div class="featured-body">
                             <div class="featured-meta"><span class="tag">RF</span><span class="tag">Signals</span></div>
@@ -181,7 +189,11 @@
                 </div>
                 <article class="card photo-feature">
                     <a href="https://207b-eie-ujs.github.io/" target="_blank" rel="noopener noreferrer">
-                        <img src="figure/graduation_2026.jpg" alt="Graduation photo of Laboratory 207B's class of 2026">
+                        <img src="figure/graduation_2026-1800.webp"
+                             srcset="figure/graduation_2026-960.webp 960w, figure/graduation_2026-1800.webp 1800w"
+                             sizes="(max-width: 900px) 100vw, 60vw"
+                             loading="lazy" decoding="async"
+                             alt="Graduation photo of Laboratory 207B's class of 2026">
                     </a>
                     <div class="photo-feature-copy">
                         <span class="card-index">LABORATORY 207B</span>
